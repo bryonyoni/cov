@@ -28,4 +28,13 @@
     <string name="what_does_self_quarantine_entail">WHAT DOES SELF QUARANTINE ENTAIL ?</string>
     <string name="reporting_illness">Reporting Illness</string>
     <string name="if_you_feel_unwell">If you feel unwell, have a cold or a cough or fever, please call 719 or text *719# which is a toll-free number provided by the Government of Kenya.</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
 </resources>

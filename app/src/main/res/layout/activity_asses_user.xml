@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AssesUser">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_margin="20dp"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Do you have any of the following symptoms?"
+            android:textSize="22sp"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Cough"
+            android:layout_marginTop="10dp"
+            android:textSize="15sp"
+            android:layout_height="wrap_content"/>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:text="None"
+                android:layout_height="wrap_content"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_marginStart="5dp"
+                android:text="Mild"
+                android:layout_height="wrap_content"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:text="Moderate"
+                android:layout_marginStart="5dp"
+                android:layout_height="wrap_content"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:text="Servere"
+                android:layout_marginStart="10dp"
+                android:layout_height="wrap_content"/>
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Difficulty in breathing"
+            android:layout_marginTop="10dp"
+            android:textSize="15sp"
+            android:layout_height="wrap_content"/>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:text="None"
+                android:layout_height="wrap_content"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_marginStart="5dp"
+                android:text="Mild"
+                android:layout_height="wrap_content"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:text="Moderate"
+                android:layout_marginStart="5dp"
+                android:layout_height="wrap_content"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:text="Servere"
+                android:layout_marginStart="10dp"
+                android:layout_height="wrap_content"/>
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Decreased ability to taste or smell"
+            android:layout_marginTop="10dp"
+            android:textSize="15sp"
+            android:layout_height="wrap_content"/>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:text="None"
+                android:layout_height="wrap_content"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_marginStart="5dp"
+                android:text="Mild"
+                android:layout_height="wrap_content"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:text="Moderate"
+                android:layout_marginStart="5dp"
+                android:layout_height="wrap_content"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:text="Servere"
+                android:layout_marginStart="10dp"
+                android:layout_height="wrap_content"/>
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Vomiting"
+            android:layout_marginTop="10dp"
+            android:textSize="15sp"
+            android:layout_height="wrap_content"/>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:text="None"
+                android:layout_height="wrap_content"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_marginStart="5dp"
+                android:text="Mild"
+                android:layout_height="wrap_content"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:text="Moderate"
+                android:layout_marginStart="5dp"
+                android:layout_height="wrap_content"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:text="Servere"
+                android:layout_marginStart="10dp"
+                android:layout_height="wrap_content"/>
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Fever"
+            android:layout_marginTop="10dp"
+            android:textSize="15sp"
+            android:layout_height="wrap_content"/>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:text="None"
+                android:layout_height="wrap_content"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_marginStart="5dp"
+                android:text="Mild"
+                android:layout_height="wrap_content"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:text="Moderate"
+                android:layout_marginStart="5dp"
+                android:layout_height="wrap_content"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:text="Servere"
+                android:layout_marginStart="10dp"
+                android:layout_height="wrap_content"/>
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="Joint pain"
+            android:layout_marginTop="10dp"
+            android:textSize="15sp"
+            android:layout_height="wrap_content"/>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:text="None"
+                android:layout_height="wrap_content"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_marginStart="5dp"
+                android:text="Mild"
+                android:layout_height="wrap_content"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:text="Moderate"
+                android:layout_marginStart="5dp"
+                android:layout_height="wrap_content"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:text="Servere"
+                android:layout_marginStart="10dp"
+                android:layout_height="wrap_content"/>
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/submit_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Submit"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/end_page_layout"
+        android:layout_width="match_parent"
+        android:background="@color/colorPrimaryDarkDay"
+        android:padding="20dp"
+        android:orientation="vertical"
+        android:visibility="gone"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="If yes was answered more than 5 questions see a doctor for further diagnosis or call 719 if you suspect covid. Thank you"
+            android:textSize="22sp"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Continue"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

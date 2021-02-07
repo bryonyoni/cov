@@ -11,8 +11,9 @@ import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 
+
 public class SplashScreenActivity extends AppCompatActivity {
-    private int time_loading = 4000;
+    private int time_loading = 2000;
     SwitchPref switchPref;
 
 
@@ -45,7 +46,7 @@ public class SplashScreenActivity extends AppCompatActivity {
             public void run() {
 
                 //intent to main activity
-                Intent home = new Intent(SplashScreenActivity.this, MainActivity.class);
+                Intent home = new Intent(SplashScreenActivity.this, LoginActivity.class);
                 startActivity(home);
                 finish();
 

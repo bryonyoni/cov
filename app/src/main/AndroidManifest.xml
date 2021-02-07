@@ -6,7 +6,6 @@
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.CALL_PHONE" />
 
-
     <application
         android:name=".VolleyController"
         android:allowBackup="true"
@@ -16,10 +15,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/LightTheme">
-        <activity android:name=".HelpLineActivity"
+        <activity android:name=".SignUpActivity"></activity>
+        <activity android:name=".AssesUser" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".Login" />
+
+        <activity
+            android:name=".HelpLineActivity"
             android:label="reporting illness" />
-        <activity android:name=".SettingMoreActivity"
-            android:label="settings"/>
+        <activity
+            android:name=".SettingMoreActivity"
+            android:label="settings" />
 
         <meta-data
             android:name="firebase_performance_logcat_enabled"
@@ -33,7 +39,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".PrecautionsActivity"
+        <activity
+            android:name=".PrecautionsActivity"
             android:label="precautions" />
         <activity
             android:name=".MainActivity"
